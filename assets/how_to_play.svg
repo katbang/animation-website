@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 220">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke-width: 15px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-5 {
+        opacity: .2;
+        stroke: #e6e6e6;
+      }
+
+      .cls-6 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #f2911b;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-width: 4px;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #fff;
+        font-family: Arial-Black, 'Arial Black';
+        font-size: 50px;
+        font-weight: 800;
+      }
+
+      .cls-8 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(65.36 93.41)"><tspan x="0" y="0">H</tspan><tspan class="cls-7" x="41.65" y="0">O</tspan><tspan x="82.45" y="0">W </tspan><tspan class="cls-6" x="149.12" y="0">T</tspan><tspan x="183.52" y="0">O </tspan><tspan x="49.43" y="60">PL</tspan><tspan class="cls-8" x="118.88" y="60">A</tspan><tspan x="153.53" y="60">Y</tspan></text>
+  <rect class="cls-2" x="8.3" y="10.99" width="356.23" height="183.64" rx="40.93" ry="40.93"/>
+  <rect class="cls-4" x="7.63" y="11.18" width="357.39" height="183.65" rx="40.93" ry="40.93"/>
+  <text class="cls-5" transform="translate(77.02 102.97)"><tspan x="0" y="0">H</tspan><tspan class="cls-7" x="41.65" y="0">O</tspan><tspan x="82.45" y="0">W </tspan><tspan class="cls-6" x="149.12" y="0">T</tspan><tspan x="183.52" y="0">O </tspan><tspan x="49.43" y="60">PL</tspan><tspan class="cls-8" x="118.88" y="60">A</tspan><tspan x="153.53" y="60">Y</tspan></text>
+  <rect class="cls-1" x="15.48" y="25.37" width="356.23" height="183.64" rx="40.93" ry="40.93"/>
+</svg>

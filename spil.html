@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spil</title>
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>"Dream Catcher"-spillet</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="spil.html">Spil</a></li>
+          <li><a href="ide.html">Ide</a></li>
+          <li><a href="teknik.html">Teknik</a></li>
+          <li><a href="grafik.html">Grafik</a></li>
+          <li><a href="assets.html">Assets</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="screen">
+        <div id="game">
+          <div id="game_background"></div>
+          <div id="game_elements">
+            <div id="dream_container1">
+              <div id="dream_sprite1"></div>
+            </div>
+            <div id="dream_container2">
+              <div id="dream_sprite2"></div>
+            </div>
+            <div id="ondkarakter1_container">
+              <div id="ondkarakter1_sprite"></div>
+            </div>
+            <div id="ondkarakter2_container">
+              <div id="ondkarakter2_sprite"></div>
+            </div>
+          </div>
+          <div id="game_ui">
+            <div id="tid_container">
+              <div id="tid_sprite"></div>
+            </div>
+            <div id="liv_container"><div id="antal_liv"></div></div>
+            <div id="points_container"><div id="antal_points"></div></div>
+          </div>
+        </div>
+        <div id="start">
+          <img
+            src="assets/start_knap.svg"
+            id="start_knap"
+            class="pointer"
+            alt="start knap"
+          />
+          <img
+            src="assets/how_to_play.svg"
+            id="how_to"
+            class="pointer"
+            alt="how to play"
+          />
+        </div>
+        <div id="infoskærm">
+          <img
+            src="assets/start_knap2.svg"
+            id="start_knap2"
+            class="pulsate"
+            alt="start knap"
+          />
+        </div>
+        <div id="game_over">
+          <img
+            src="assets/spil_igen2.svg"
+            id="spil_igen2"
+            class="pointer"
+            alt="spil igen"
+          />
+        </div>
+        <div id="level_complete">
+          <img
+            src="assets/spil_igen1.svg"
+            id="spil_igen1"
+            class="pointer"
+            alt="spil igen"
+          />
+          <div id="lvl_complete_tekst"><span id="points"></span> points</div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="js/spil.js"></script>
+    <audio id="bg_sound" src="assets/bg_sound.mp3"></audio>
+    <audio id="ond_sound" src="assets/ondkarakter.mp3"></audio>
+    <audio id="dream_sound" src="assets/dream.mp3"></audio>
+  </body>
+</html>

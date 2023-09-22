@@ -1,0 +1,310 @@
+nav {
+  background-color: teal;
+  padding: 5px;
+  border-width: 0px;
+  margin: 0px;
+}
+
+nav ul {
+  color: white;
+  list-style: none;
+  font-family: "Krungthep", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 18px;
+}
+nav a:hover:after {
+  width: 100%;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a:visited {
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Krungthep", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+p {
+  margin: 1em;
+  font-family: "Courier New", Courier, monospace;
+  max-width: 65ch;
+}
+
+#startskærm {
+  width: 100%;
+}
+
+#screen {
+  width: 100%;
+  aspect-ratio: 16/9;
+  position: relative;
+  overflow: hidden;
+}
+
+#game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+#game_background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(../assets/spilskærm.svg);
+  background-size: cover;
+}
+#game_elements {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#dream_container1,
+#dream_container2 {
+  width: 8.5%;
+  aspect-ratio: 16/17;
+  position: absolute;
+}
+#dream_sprite1,
+#dream_sprite2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/dream.svg);
+  background-size: cover;
+}
+#ondkarakter1_container,
+#ondkarakter2_container {
+  width: 8.5%;
+  aspect-ratio: 16/17;
+  position: absolute;
+}
+#ondkarakter1_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/ond_figur.svg);
+  background-size: cover;
+}
+
+#ondkarakter2_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/ond_figur2.svg);
+  background-size: cover;
+}
+#game_ui {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  pointer-events: none;
+}
+#start {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(../assets/startskærm.svg);
+}
+
+#start_knap {
+  position: relative;
+  width: 24%;
+  top: 34%;
+  left: 71%;
+}
+
+#how_to {
+  position: relative;
+  width: 16%;
+  top: 59%;
+  left: 56%;
+}
+
+#infoskærm {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(../assets/infoskærm.svg);
+}
+#start_knap2 {
+  position: relative;
+  width: 14%;
+  top: 40.2%;
+  left: 43%;
+}
+
+#liv_container {
+  position: absolute;
+  aspect-ratio: 15/14;
+  width: 8%;
+  top: 2%;
+  left: 2%;
+  background-image: url(../assets/liv.svg);
+}
+
+#points_container {
+  position: absolute;
+  width: 8.3%;
+  aspect-ratio: 16/14;
+  top: 1.5%;
+  left: 12.8%;
+  background-image: url(../assets/point.svg);
+}
+
+#game_over {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(../assets/slutskærm_taber.svg);
+  background-size: cover;
+}
+#level_complete {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(../assets/slutskærm_vinder.svg);
+  background-size: cover;
+}
+
+#spil_igen1 {
+  position: absolute;
+  width: 20%;
+  top: 78.6%;
+  left: 77.5%;
+}
+
+#spil_igen2 {
+  position: absolute;
+  width: 20%;
+  top: 30%;
+  left: 76%;
+}
+
+.figur {
+  width: 15%;
+}
+
+.skærm {
+  width: 100%;
+}
+
+#tid_container {
+  position: absolute;
+  width: 18%;
+  aspect-ratio: 30/6;
+  border: 4px solid #806fa6;
+  border-radius: 15px;
+  background-color: rgba(208, 204, 204, 0.383);
+  top: 4%;
+  left: 79.7%;
+}
+
+#tid_sprite {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: limegreen;
+  transform-origin: center left;
+}
+
+#antal_liv {
+  position: relative;
+  top: 25%;
+  left: 37%;
+  color: white;
+  font-family: "Krungthep", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+#antal_points {
+  position: relative;
+  top: 39%;
+  left: 42%;
+  color: #3f2940;
+  font-family: "Krungthep", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+#lvl_complete_tekst {
+  position: absolute;
+  top: 53%;
+  left: 63%;
+  transform: rotate(-12deg);
+  color: black;
+  font-family: "Krungthep", " Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+#liv {
+  width: 17%;
+}
+
+#point {
+  width: 17%;
+}
+
+#tid {
+  width: 30%;
+}
+
+.knap {
+  width: 30%;
+}
+@media (min-width: 800px) {
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  nav a:after {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    height: 1px;
+  }
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.overskrift {
+  margin: 1em;
+}
+
+#ide {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 1em;
+}
+.grafik {
+  width: 70%;
+}
